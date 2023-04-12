@@ -1,0 +1,86 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+/* Main */
+.main {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.canvas-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+#key-area {
+  background-color: #1d1d1d;
+  height: 400px;
+  width: 100%;
+}
+
+.canvas-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Footer */
+.footer {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  margin: 0;
+}
