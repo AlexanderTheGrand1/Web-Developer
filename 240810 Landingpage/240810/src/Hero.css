@@ -1,0 +1,39 @@
+/* Hero.css */
+.hero {
+  background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+  height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

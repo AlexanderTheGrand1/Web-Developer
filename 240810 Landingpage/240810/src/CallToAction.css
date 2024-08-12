@@ -1,0 +1,36 @@
+/* CallToAction.css */
+.cta {
+  background-color: #007bff;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.cta .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cta h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #007bff;
+  padding: 12px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+}
